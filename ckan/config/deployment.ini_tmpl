@@ -105,7 +105,7 @@ ckan.views.default_views = image_view text_view recline_view
 
 ## Front-End Settings
 ckan.site_title = CKAN
-ckan.site_logo = /base/images/ckan-logo.png
+ckan.site_logo = /base/images/prague-ckan.png
 ckan.site_description =
 ckan.favicon = /images/icons/ckan.ico
 ckan.gravatar_default = identicon
