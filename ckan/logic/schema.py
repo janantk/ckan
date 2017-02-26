@@ -149,7 +149,7 @@ def default_create_package_schema():
         'maintainer': [ignore_missing, unicode],
         'maintainer_email': [ignore_missing, unicode],
         'license_id': [ignore_missing, unicode],
-        'notes': [ignore_missing, unicode],
+        'notes': [not_empty, unicode],
         'url': [ignore_missing, unicode],#, URL(add_http=False)],
         'version': [ignore_missing, unicode, package_version_validator],
         'state': [ignore_not_package_admin, ignore_missing],
